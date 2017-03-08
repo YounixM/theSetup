@@ -1,3 +1,14 @@
+html::-webkit-scrollbar {width:5px;height:auto;background:#fbf2ee;}
+html::-webkit-scrollbar-corner { background:#fbf2ef; } 
+html::-webkit-scrollbar-button:vertical {height:0px;display:block;} 
+html::-webkit-scrollbar-button:horizontal {width:2px;display:block;} 
+html::-webkit-scrollbar-thumb:vertical {background:#333;border: 0px solid #111;border-right:none;}
+html::-webkit-scrollbar-thumb:horizontal {background:#333;border: 0px solid #111;border-bottom : none} 
+html::-webkit-scrollbar-thumb {background:#873fb5} 
+html:-webkit-scrollbar-thumb:hover {background:#873fb5} 
+html::-webkit-scrollbar-track-piece {background: none;} 
+
+
 body{
 	font-family: lato;
 	color: #111;
